@@ -1,21 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package basicoskonstantin;
 
-/**
- *
- * @author Konstantin
- */
 public class BasicosKonstantin {
 
-    /**
-     * @param args the command line arguments
+
+     /**
+     * Método para mostrar ejemplo de tipo String.
      */
+    public static void cadenas() {
+
+        //Variable de tipo string
+        String v;
+        
+
+        //Asignamos valor a la variable
+        v = "Esto es el contenido de la variable tipo String";
+
+        //Mostrar en pantalla el contendido de la variable.
+        System.out.println(v);
+    }
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        cadenas();  // Llamada al método
     }
     
 }
